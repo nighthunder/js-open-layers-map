@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+          <meta charset="utf-8"/>
+          <title>Macroplan Map</title>
+
+          <!-- ============================================ imports bibliotecas JS ============================================ -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+          <script src="https://unpkg.com/ol-layerswitcher@3.6.0"></script>
+          <!-- ================================================================================================================ -->
+
+          <!-- ============================================ imports bibliotecas CSS ============================================ -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css">
+          <link rel="stylesheet" href="https://unpkg.com/ol-layerswitcher@3.6.0/src/ol-layerswitcher.css" />
+          <!-- ================================================================================================================= -->
+
+          <!-- ============================================ imports CSS ============================================ -->
+          <link rel="stylesheet" href="map.css">
+          <!-- ===================================================================================================== -->
+   </head>
+   <body>
+          <div id="map" class="map"></div>
+          <div id="map_tooltip"></div>
+          <!-- <form class="form-inline">
+              <label>Action type &nbsp;</label>
+              <select id="type" class="form-control">
+                <option value="singleselect" selected>Single Select</option>
+                <option value="multiselect">Multi Select</option>
+                <option value="singleselect-hover">Single Select on hover</option>
+              </select>
+            </form> -->
+          <!-- <div id="info">&nbsp;</div> -->
+          <!-- ============================================ imports JS ============================================ -->
+          <script type="text/javascript" src="map.js"></script>
+          <!-- ==================================================================================================== -->
+   </body>
+</html>
